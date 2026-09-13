@@ -6,7 +6,7 @@
 
 Для выполнения домашнего задания создал отдельный публичный репозиторий:
 
-[devops-netology](https://github.com/borisenkodaniil/devops-netology)
+![devops-netology](https://github.com/borisenkodaniil/devops-netology)
 
 При создании репозитория добавил файл `README.md`.
 
@@ -94,7 +94,7 @@ git add .gitignore
 git commit -m "Added gitignore"
 ```
 
-[Gitignore](./gitignore.png)
+![Gitignore](./gitignore.png)
 
 ## Удаление и перемещение файлов
 
@@ -145,7 +145,7 @@ git commit -m "Moved and deleted"
 
 В результате файл `will_be_deleted.txt` был удалён из репозитория, а файл `will_be_moved.txt` был переименован в `has_been_moved.txt`.
 
-[Remove Files](./remove%20files.png)
+![Remove Files](./remove%20files.png)
 
 ## Проверка истории коммитов
 
@@ -171,6 +171,6 @@ git log
 git push
 ```
 
-[Git Push](./git%20push.png)
+![Git Push](./git%20push.png)
 
 ---
