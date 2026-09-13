@@ -64,7 +64,7 @@ git diff --staged
 git commit -m "First commit"
 ```
 
-[Repository](./repository.png)
+![Repository](./repository.png)
 
 ## Создание `.gitignore`
 
