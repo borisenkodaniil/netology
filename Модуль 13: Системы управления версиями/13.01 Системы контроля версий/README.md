@@ -78,15 +78,21 @@ git add .gitignore
 
 В `.gitignore` добавлены правила, благодаря которым Git будет игнорировать:
 
-- каталог `.terraform` с локальными файлами Terraform;
-- файлы состояния `*.tfstate` и их дополнительные версии;
-- crash-логи `crash.log` и `crash.*.log`;
-- файлы переменных `*.tfvars` и `*.tfvars.json`;
-- локальные override-файлы;
-- временный файл блокировки `.terraform.tfstate.lock.info`;
-- файлы конфигурации Terraform CLI `.terraformrc` и `terraform.rc`.
+- `.terraform/` - игнорируется весь каталог `.terraform` со всем содержимым.
+- `*.tfstate` - игнорируются все файлы, заканчивающиеся на `.tfstate`.
+- `*.tfstate.*` - игнорируются все файлы, содержащие `.tfstate.` в имени.
+- `crash.log`,`override.tf`,`override.tf.json` - игнорируются файлы с точными именами `crash.log`,`override.tf`,`override.tf.json`
+- `crash.*.log` - все файлы вида `crash.*.log`.
+- `*.tfvars` - все файлы с расширением `.tfvars`.
+- `*.tfvars.json` - все файлы, заканчивающиеся на `.tfvars.json`.
+- `*_override.tf`, `*_override.tf.json` - файлы, заканчивающиеся на `override.tf` либо `override.tf.json`.
+- `.terraform.tfstate.lock.info` - игнорирует все файлы с таким точным именем.
+- `.terraformrc`, `terraform.rc` - игнорирует файлы с такими точными именами.
 
-Файлы `*.tfvars` и `*.tfvars.json` не должны попадать в репозиторий, так как могут содержать пароли, приватные ключи и другие конфиденциальные данные.
+Обозначения:
+
+- `/` - указывает на директорию.
+- `*` - указывает на любое количество символов.
 
 После добавления `.gitignore` создал коммит:
 
