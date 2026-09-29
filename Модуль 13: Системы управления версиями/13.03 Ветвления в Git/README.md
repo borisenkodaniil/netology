@@ -355,7 +355,7 @@ git add branching/rebase.sh
 git rebase --continue
 ```
 
-![Второй конфликт rebase](./12-rebase-conflict-2.png)
+![Второй конфликт rebase](./11-rebase-conflict-2.png)
 
 После разрешения конфликтов rebase был успешно завершён.
 
@@ -383,7 +383,7 @@ non-fast-forward
 git push -u origin git-rebase -f
 ```
 
-![Push после rebase](./13-rebase-push.png)
+![Push после rebase](./12-rebase-push.png)
 
 ---
 
@@ -407,7 +407,7 @@ git merge git-rebase
 git push
 ```
 
-![Слияние git-rebase с main](./14-merge-rebase.png)
+![Слияние git-rebase с main](./13-merge-rebase.png)
 
 ---
 
@@ -423,6 +423,6 @@ git log --oneline --decorate --graph --all
 
 На графе отображается итоговая история работы с ветками `main`, `git-merge` и `git-rebase`.
 
-![Итоговый Network Graph](./15-graph.png)
+![Итоговый Network Graph](./14-graph.png)
 
 ---
