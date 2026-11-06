@@ -35,7 +35,7 @@
 | Автоматизация | Ansible (playbooks, роли, Jinja2), Terraform, Yandex Cloud, cloud-init |
 | CI/CD и Git | Git (ветки, merge, rebase, теги), GitLab, GitLab Runner |
 | Мониторинг | Zabbix (шаблоны, items, триггеры, дашборды), Prometheus, Grafana |
-| Отказоустойчивость | Keepalived/VRRP, HAProxy, Nginx upstream, балансировка, rsync-бэкапы |
+| Отказоустойчивость | Keepalived/VRRP, HAProxy, Nginx upstream, балансировка, резервное копирование через rsync |
 | Данные | MySQL, SQL (JOIN, агрегаты, индексы, репликация), Redis, Memcached, ELK |
 | Безопасность | nmap, LUKS, ecryptfs, AppArmor, Suricata, Fail2Ban |
 
