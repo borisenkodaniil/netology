@@ -1,0 +1,20 @@
+# Служебные файлы ОС и редакторов
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# LibreOffice / офисные блокировки
+.~lock.*#
+~$*
+
+# Временные файлы
+*.tmp
+*.swp
+*~
+
+# Состояние Terraform и секреты
+*.tfstate.backup
+.terraform/
+crash.log
+*.pem
+*.key
