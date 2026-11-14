@@ -1,0 +1,7 @@
+# Приводит подписи коммитов к одному имени и почте.
+# Формат: Канонично <почта> Прежняя подпись <прежняя почта>
+Борисенко Даниил <borisenkodaniil708@gmail.com> <borisenkodaniil708@gmail.com>
+Борисенко Даниил <borisenkodaniil708@gmail.com> Borisenko Daniil <borisenkodaniil708@gmail.com>
+Борисенко Даниил <borisenkodaniil708@gmail.com> borisenkodaniil <borisenkodaniil708@gmail.com>
+Борисенко Даниил <borisenkodaniil708@gmail.com> BorisenkoDaniil <borisenkodaniil708@gmail.com>
+Борисенко Даниил <borisenkodaniil708@gmail.com> Daniil <235325581+borisenkodaniil@users.noreply.github.com>

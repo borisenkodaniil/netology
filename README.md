@@ -4,7 +4,7 @@
 
 **13 модулей · 68 заданий · 284 скриншота проверок · 9 сертификатов о завершении модулей.**
 
-По каждому заданию в папке лежит `README.md` с условием и решением, рядом — скриншоты выполненных проверок, конфиги и скрипты.
+По каждому заданию в папке лежит `README.md` с условием и решением, рядом лежат скриншоты выполненных проверок, конфиги и скрипты.
 
 ## Модули
 
@@ -52,10 +52,18 @@ module-07-automation/
 
 ## С чего начать
 
-1. [Модуль 1](module-01-linux-basics/README.md) — база: терминал и устройство Linux.
-2. [Модуль 7](module-07-automation/README.md) — Ansible, Terraform и CI/CD.
-3. [Модуль 9](module-09-high-availability/README.md) — отказоустойчивость и балансировка.
+1. [Модуль 1](module-01-linux-basics/README.md): база, терминал и устройство Linux.
+2. [Модуль 7](module-07-automation/README.md): Ansible, Terraform и CI/CD.
+3. [Модуль 9](module-09-high-availability/README.md): отказоустойчивость и балансировка.
 
 ## Связанные проекты
 
-- [netology-project](https://github.com/borisenkodaniil/netology-project) — курсовая работа: развёртывание инфраструктуры в Yandex Cloud через Terraform и Ansible, мониторинг Prometheus + Grafana, сбор логов через ELK, балансировка нагрузки.
+- [netology-project](https://github.com/borisenkodaniil/netology-project): курсовая работа. Развёртывание инфраструктуры в Yandex Cloud через Terraform и Ansible, мониторинг Prometheus + Grafana, сбор логов через ELK, балансировка нагрузки.
+
+## Об авторе
+
+Борисенко Даниил. Прошёл профессию «DevOps-инженер с нуля» в Нетологии, здесь лежат все домашние работы с проверками. Связаться: borisenkodaniil708@gmail.com.
+
+## Лицензия
+
+Материалы выложены для учёбы: читать и разбирать можно, сдавать их за себя и публиковать копии целиком нельзя. Подробности в файле [LICENSE](LICENSE). Тексты заданий, скриншоты проверок и сертификаты принадлежат Нетологии.
