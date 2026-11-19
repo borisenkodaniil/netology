@@ -18,3 +18,8 @@ desktop.ini
 crash.log
 *.pem
 *.key
+
+# Секреты и мусор заданий
+sa-key.json
+.vagrant/
+*.log
